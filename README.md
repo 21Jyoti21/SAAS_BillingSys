@@ -1,19 +1,12 @@
-# saas-billing-system
-This system is meant to be used by software as a service company who charge their products recurrently.I have made it ready for 
-local payment gateways integration like M-Pesa and KCB bank.You can aslo intergrate with international payment gateways of your choice.
+# SaaS Billing System
 
-To contribute Fork the repo and create a new branch < git checkout -b your-feature-branch >
+A lightweight billing and subscription management system designed for Software-as-a-Service (SaaS) businesses.  
+It supports **recurring payments**, **customer subscriptions**, and can be integrated with both **local** and **international** payment gateways.  
 
-Clone the repo and install project dependencies < pip install -r requirements.txt >
+---
 
-run migrations to set up database < python manage.py migrate >
-
-Run the development server < python manage.py runserver >
-
-Open your browser to "http://127.0.0.1:8000/"
-
-When making changes test your changes and raise pull request.Make sure to comment your code in the appropriate way
-
-
- 
-
+## ✨ Features
+- Ready for local payment gateways (e.g., **M-Pesa**, **KCB Bank**)
+- Easily extendable for international gateways (e.g., **Stripe**, **PayPal**)
+- Handles subscriptions and recurring billing
+- Built with **Django** for scalability and security
